@@ -58,5 +58,5 @@ jQuery(document).ready(function($) {
   new GitHubCalendar('#github-graph', 'dev3l');
 
   /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-  GitHubActivity.feed({ username: 'mdo', selector: '#ghfeed' });
+  GitHubActivity.feed({ username: 'dev3l', selector: '#ghfeed' });
 });
