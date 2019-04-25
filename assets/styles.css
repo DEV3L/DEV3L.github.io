@@ -39,6 +39,12 @@ a:focus {
   text-decoration: none;
 }
 
+.skill-badge {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 0 2px 0;
+}
+
 .btn, a.btn {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -190,7 +196,7 @@ a.dotted-link:hover {
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #545e69;
   font-size: 24px;
 }
