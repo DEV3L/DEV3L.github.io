@@ -54,9 +54,6 @@ jQuery(document).ready(function($) {
     }
   );
 
-  /* Github Calendar - https://github.com/dev3l/github-calendar */
   new GitHubCalendar('#github-graph', 'dev3l');
-
-  /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
   GitHubActivity.feed({ username: 'dev3l', selector: '#ghfeed' });
 });
